@@ -1,5 +1,9 @@
 
 
+  #map {
+    height: 100%
+  }
+
 @media (min-width: 1170px) {
 
   .navbar {
@@ -55,7 +59,7 @@ font-size: 36px;
        background: white;
        padding: 10px;
        overflow: hidden;
-       color: #black;
+       color: #000000;
        font-size: 14px;
 
    }
@@ -73,7 +77,7 @@ font-size: 36px;
           background: #2d2d2d;
           padding: 10px;
           overflow: hidden;
-          color: #black;
+          color: #000000;
           font-size: 14px;
 
       }
@@ -117,7 +121,7 @@ padding-bottom: 20px;
   height: auto;
   background: transparent;
   overflow: hidden;
-  color: #black;
+  color: #000000;
   font-size: 14px;
 }
 
@@ -135,7 +139,7 @@ padding-bottom: 20px;
 
 a {
   text-decoration: none;
-  color: #black;
+  color: #000000;
 }
 a:hover {
   text-decoration: none;
@@ -145,7 +149,7 @@ a:hover {
 
 a-nav {
   text-decoration: none;
-  color: #black;
+  color: #000000;
 }
 a-nav:hover {
   text-decoration: none;
@@ -154,8 +158,8 @@ a-nav:hover {
 }
 
 .division {
-  color: #black;
-  border: solid 1px #black;
+  color: #000000;
+  border: solid 1px #000000;
   width: 700px;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -222,6 +226,17 @@ display: inline-block
     top: 446px
 }
 
+.map-container {
+  border: solid 1px #a9a9a9;
+  height: 500px;
+  width: 50%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 15%;
+  float: right;
+}
+
+
 }
 
 
@@ -282,7 +297,7 @@ font-size: 32px;
        background: white;
        padding: 10px;
        overflow: hidden;
-       color: #black;
+       color: #000000;
        font-size: 14px;
 
    }
@@ -300,7 +315,7 @@ font-size: 32px;
           background: #2d2d2d;
           padding: 10px;
           overflow: hidden;
-          color: #black;
+          color: #000000;
           font-size: 14px;
 
       }
@@ -344,7 +359,7 @@ padding-bottom: 20px;
   height: auto;
   background: transparent;
   overflow: hidden;
-  color: #black;
+  color: #000000;
   font-size: 14px;
 }
 
@@ -362,7 +377,7 @@ padding-bottom: 20px;
 
 a {
   text-decoration: none;
-  color: #black;
+  color: #000000;
 }
 a:hover {
   text-decoration: none;
@@ -372,7 +387,7 @@ a:hover {
 
 a-nav {
   text-decoration: none;
-  color: #black;
+  color: #000000;
 }
 a-nav:hover {
   text-decoration: none;
@@ -381,8 +396,8 @@ a-nav:hover {
 }
 
 .division {
-  color: #black;
-  border: solid 1px #black;
+  color: #000000;
+  border: solid 1px #000000;
   width: 620px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -449,6 +464,16 @@ display: inline-block
     top: 446px
 }
 
+.map-container {
+  border: solid 1px #a9a9a9;
+  height: 550px;
+  width: 55%;
+  margin-bottom: 4%;
+  margin-left: 5%;
+  margin-right: 13%;
+  float: right;
+}
+
 }
 
 
@@ -507,7 +532,7 @@ font-size: 26px;
        background: white;
        padding: 10px;
        overflow: hidden;
-       color: #black;
+       color: #000000;
        font-size: 13px;
 
    }
@@ -525,7 +550,7 @@ font-size: 26px;
           background: #2d2d2d;
           padding: 8px;
           overflow: hidden;
-          color: #black;
+          color: #000000;
           font-size: 13px;
 
       }
@@ -569,7 +594,7 @@ padding-bottom: 18px;
   height: auto;
   background: transparent;
   overflow: hidden;
-  color: #black;
+  color: #000000;
   font-size: 13px;
 }
 
@@ -587,7 +612,7 @@ padding-bottom: 18px;
 
 a {
   text-decoration: none;
-  color: #black;
+  color: #000000;
 }
 a:hover {
   text-decoration: none;
@@ -597,7 +622,7 @@ a:hover {
 
 a-nav {
   text-decoration: none;
-  color: #black;
+  color: #000000;
 }
 a-nav:hover {
   text-decoration: none;
@@ -606,8 +631,8 @@ a-nav:hover {
 }
 
 .division {
-  color: #black;
-  border: solid 1px #black;
+  color: #000000;
+  border: solid 1px #000000;
   width: 550px;
   margin-top: 35px;
   margin-bottom: 35px;
@@ -674,6 +699,16 @@ display: inline-block
     top: 446px
 }
 
+.map-container {
+  border: solid 1px #a9a9a9;
+  height: 600px;
+  width: 65%;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  margin-right: 5%;
+  float: right;
+}
+
 }
 
 
@@ -737,7 +772,7 @@ font-size: 20px;
        background: white;
        padding: 6px;
        overflow: hidden;
-       color: #black;
+       color: #000000;
        font-size: 11px;
 
    }
@@ -755,7 +790,7 @@ font-size: 20px;
           background: #2d2d2d;
           padding: 6px;
           overflow: hidden;
-          color: #black;
+          color: #000000;
           font-size: 11px;
 
       }
@@ -799,7 +834,7 @@ padding-bottom: 14px;
   height: auto;
   background: transparent;
   overflow: hidden;
-  color: #black;
+  color: #000000;
   font-size: 11px;
 }
 
@@ -817,7 +852,7 @@ padding-bottom: 14px;
 
 a {
   text-decoration: none;
-  color: #black;
+  color: #000000;
 }
 a:hover {
   text-decoration: none;
@@ -827,7 +862,7 @@ a:hover {
 
 a-nav {
   text-decoration: none;
-  color: #black;
+  color: #000000;
 }
 a-nav:hover {
   text-decoration: none;
@@ -836,8 +871,8 @@ a-nav:hover {
 }
 
 .division {
-  color: #black;
-  border: solid 1px #black;
+  color: #000000;
+  border: solid 1px #000000;
   width: 80px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -904,6 +939,15 @@ display: inline-block
     top: 446px
 }
 
+.map-container {
+  border: solid 1px #a9a9a9;
+  height: 450px;
+  width: 85%;
+  margin-bottom: 3%;
+  margin-left: 4%;
+  margin-right: 2%;
+}
+
 }
 
 
@@ -967,7 +1011,7 @@ font-size: 14px;
        background: white;
        padding: 4px;
        overflow: hidden;
-       color: #black;
+       color: #000000;
        font-size: 9px;
 
    }
@@ -985,7 +1029,7 @@ font-size: 14px;
           background: #2d2d2d;
           padding: 4px;
           overflow: hidden;
-          color: #black;
+          color: #000000;
           font-size: 9px;
 
       }
@@ -1029,7 +1073,7 @@ padding-bottom: 11px;
   height: auto;
   background: transparent;
   overflow: hidden;
-  color: #black;
+  color: #000000;
   font-size: 9px;
 }
 
@@ -1047,7 +1091,7 @@ padding-bottom: 11px;
 
 a {
   text-decoration: none;
-  color: #black;
+  color: #000000;
 }
 a:hover {
   text-decoration: none;
@@ -1057,7 +1101,7 @@ a:hover {
 
 a-nav {
   text-decoration: none;
-  color: #black;
+  color: #000000;
 }
 a-nav:hover {
   text-decoration: none;
@@ -1066,8 +1110,8 @@ a-nav:hover {
 }
 
 .division {
-  color: #black;
-  border: solid 1px #black;
+  color: #000000;
+  border: solid 1px #000000;
   width: 20px;
   margin-top: 15px;
   margin-bottom: 18px;
@@ -1092,7 +1136,7 @@ display: inline-block
     top:100px;
     z-index: 3;
     text-align: center;
-    font: 24px "avenir-next-demibold","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font: 18px "avenir-next-demibold","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
   font-weight:bold;
     letter-spacing: -2px;
     word-spacing: -2px;
@@ -1132,6 +1176,15 @@ display: inline-block
 
 .slogan ul li:nth-child(5) {
     top: 446px
+}
+
+.map-container {
+  border: solid 1px #a9a9a9;
+  height: 470px;
+  width: 90%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 }
