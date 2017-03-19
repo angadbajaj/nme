@@ -1,22 +1,15 @@
-<!Doctype HTML>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
   <title>Petrol Pumps | Near Me Easy</title>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
   <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700,300italic,400italic' rel='stylesheet' type="text/css" media="all"/>
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
 
   <!-- Map Styling -->
-<style>
-  #map {
-    height: 100%;
-  }
-
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-</style>
 
 <!-- Javascript for Maps -->
 <script>
@@ -84,8 +77,49 @@ initMap();
 </head>
 
 <body>
+
+  <!-- Navigation Menu -->
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand a-nav" href="#">Near<b><font color="#ffc300">Me</b></font>Easy</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#" class="a-nav">Home</a></li>
+        <li><a href="#" class="a-nav">About</a></li>
+        <li><a href="#" class="a-nav">Advertise</a></li>
+  	    <li><a href="#" class="a-nav">Blog</a></li>
+      </ul>
+      <button class="btn btn-default navbar-btn navbar-right">Download App</button>
+    </div>
+  </nav>
+
+  <!-- Slider -->
+  <div class="container-fluid">
+  <div class="row">
+        <div class="slider-content margin-down">
+    <img class="mySlides" src="img/slide1.png" style="width:100%;max-height:400px;">
+    <img class="mySlides" src="img/slide2.png" style="width:100%;max-height:400px;">
+    <img class="mySlides" src="img/slide3.png" style="width:100%;max-height:400px;">
+  </div>
+  </div>
+  </div>
+
+
+
   <!-- Placeholder for Map -->
-<div id="map"></div>
+  <div class="row">
+    <center>
+  <div class="map-container">
+<div id="map">
+</div>
+</div>
+</center>
+</div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDU5wfvdIUxVMIBry1e-XU-ap7Etj_u7Pg&libraries=places&callback=initMap" async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
