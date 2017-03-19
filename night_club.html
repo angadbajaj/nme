@@ -28,7 +28,7 @@ function initMap() {
       }
       map = new google.maps.Map(document.getElementById('map'), {//Maps specs
         center: myLocation,
-        zoom: 15
+        zoom: 14
       });
       infoWindow = new google.maps.InfoWindow({
         map: map
@@ -41,7 +41,7 @@ infoWindow.setContent('<font color="red"><b>Your Location</b></font>');
       var service = new google.maps.places.PlacesService(map);
       service.nearbySearch({//Nearby Search
         location: myLocation, //Uses geolocation to find the place of interest
-        radius: 3000,
+        radius: 4000,
         types: ['night_club']
       }, callback);
     });
